@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bright Harvest Microgreens</title>
+  <meta name="description" content="Premium microgreens for restaurants and hotels in Egypt." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>Bright Harvest Microgreens</h1>
+<p>Premium microgreens for professional kitchens.</p>
+
+<a href="https://wa.me/201503131981">Contact on WhatsApp</a>
+
+</body>
+</html>
