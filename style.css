@@ -101,3 +101,17 @@ body {
 .logo {
   max-width: 160px;
 }
+.product-img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 20px;
+  margin: 30px auto;
+  display: block;
+}
+
+.back {
+  display: block;
+  margin: 20px;
+  text-decoration: none;
+  color: #2e7d32;
+}
