@@ -7,18 +7,18 @@
 
 body {
   background: #f4fbf6;
-  color: #222;
+  color: #1f2937;
 }
 
-/* HERO */
+/* Hero */
 .hero {
   text-align: center;
-  padding: 100px 20px;
+  padding: 80px 20px;
 }
 
 .hero h1 {
   color: #1f7a3a;
-  font-size: 42px;
+  font-size: 36px;
   margin-bottom: 10px;
 }
 
@@ -29,27 +29,28 @@ body {
 
 .btn {
   display: inline-block;
-  background: #2f8f3a;
-  color: white;
+  background: #1f7a3a;
+  color: #fff;
   padding: 14px 28px;
   border-radius: 30px;
   text-decoration: none;
   font-weight: bold;
+  transition: 0.3s;
 }
 
 .btn:hover {
-  background: #256f2f;
+  background: #16612e;
 }
 
-/* PRODUCTS */
+/* Products */
 .products {
-  padding: 80px 20px;
+  padding: 60px 20px;
   text-align: center;
 }
 
 .products h2 {
-  color: #1f7a3a;
   margin-bottom: 40px;
+  color: #1f7a3a;
 }
 
 .products-grid {
@@ -61,11 +62,11 @@ body {
 }
 
 .product-card {
-  background: white;
-  padding: 30px 20px;
-  border-radius: 16px;
+  background: #fff;
+  border-radius: 14px;
+  padding: 20px;
   text-decoration: none;
-  color: #222;
+  color: inherit;
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
   transition: 0.3s;
 }
@@ -75,9 +76,16 @@ body {
   box-shadow: 0 14px 30px rgba(0,0,0,0.12);
 }
 
+.product-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
 .product-card h3 {
   color: #1f7a3a;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-size: 18px;
 }
 
@@ -86,19 +94,15 @@ body {
   color: #555;
 }
 
-/* CONTACT */
-.contact {
+/* Footer */
+.footer {
   text-align: center;
-  padding: 60px 20px;
-  background: #eaf6ee;
+  padding: 40px 20px;
+  font-size: 14px;
+  color: #555;
 }
 
-.contact h2 {
-  color: #1f7a3a;
-  margin-bottom: 15px;
-}
-
-/* RESPONSIVE */
+/* Responsive */
 @media (max-width: 900px) {
   .products-grid {
     grid-template-columns: repeat(2, 1fr);
