@@ -1,64 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Bright Harvest Microgreens</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-.btn {
-  background: red !important;
-  color: white !important;
-  font-size: 20px !important;
+/* =========================
+   Home Products Grid
+========================= */
+
+.products-grid {
+  max-width: 1100px;
+  margin: 80px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
-.btn:hover {
-  background: black !important;
-  transform: scale(1.2);
+
+/* Product Card */
+.product-card {
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  text-decoration: none;
+  color: inherit;
 }
-</style>
 
-</head>
-<body>
-  <header class="site-header">
-  <img src="logo.png" alt="Bright Harvest Logo" class="logo">
-</header>
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
 
-<section class="hero">
-  <h1>Bright Harvest Microgreens</h1>
-  <p>Premium microgreens for professional kitchens.</p>
-  <a class="btn" href="https://wa.me/201000000000" target="_blank">
-    Contact on WhatsApp
-  </a>
-</section>
+/* Product Title */
+.product-card h3 {
+  font-size: 18px;
+  color: #1f7a3a;
+  margin-bottom: 10px;
+}
 
-<section class="section">
-  <h2>Our Premium Selection</h2>
+/* Product Description */
+.product-card p {
+  font-size: 14px;
+  color: #555;
+}
 
-  <div class="card">
-   <a href="broccoli.html" class="card">
-  <h3>🥦 Broccoli Microgreens</h3>
-  <p>Clean, mild flavor — perfect for refined dishes</p>
-</a>
+/* Responsive */
+@media (max-width: 900px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
-<a href="radish.html" class="card">
-  🌶️ <strong>Radish Microgreens</strong>
-  <p>Bold taste with visual impact</p>
-</a>
-
- <a href="pea-shoots.html" class="card">
-  🌱 <strong>Pea Shoots</strong>
-  <p>Fresh, sweet crunch</p>
-</a>
-
- <a href="signature-mix.html" class="card">
-  🌿 <strong>Signature Mixed Microgreens</strong>
-  <p>A chef-curated blend for balance and color</p>
-</a>
-
-<section class="section contact">
-  <h2>Contact & Supply</h2>
-  <p>📍 Fifth Settlement – New Cairo</p>
-  <p>📞 WhatsApp: +20 1503131981</p>
-</section>
-
-</body>
-</html>
+@media (max-width: 500px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+}
