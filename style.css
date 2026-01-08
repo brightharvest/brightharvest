@@ -115,3 +115,52 @@ body {
   text-decoration: none;
   color: #2e7d32;
 }
+/* Product Pages Layout */
+.product-page {
+  max-width: 720px;
+  margin: 80px auto;      /* يخلي المحتوى في المنتصف */
+  padding: 40px 30px;
+  background: #ffffff;
+  border-radius: 16px;
+  text-align: center;     /* كل النص في النص */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Product Title */
+.product-page h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #1f7a3a;
+}
+
+/* Subtitle */
+.product-page .subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* Feature List */
+.product-page .features {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 30px;
+}
+
+.product-page .features li {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* Back Link */
+.product-page a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #1f7a3a;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.product-page a:hover {
+  text-decoration: underline;
+}
