@@ -104,3 +104,43 @@ body {
     grid-template-columns: 1fr;
   }
 }
+/* WHO WE SERVE */
+.who-we-serve {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f7fbf9;
+  margin-top: 60px;
+}
+
+.who-we-serve h2 {
+  font-size: 36px;
+  color: #145a32;
+  margin-bottom: 10px;
+}
+
+.who-we-serve p {
+  font-size: 18px;
+  color: #333;
+}
+
+.serve-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 30px 0;
+  font-size: 20px;
+}
+
+.serve-list div {
+  background: white;
+  padding: 15px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.serve-tagline {
+  margin-top: 20px;
+  font-weight: 600;
+  color: #1e8449;
+}
