@@ -154,3 +154,20 @@ body {
   transform: scale(1.03);
   box-shadow: 0 10px 25px rgba(0,0,0,0.12);
 }
+/* Trust Badges */
+.trust-badges {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e8449;
+  flex-wrap: wrap;
+}
+
+.trust-badges span {
+  background: #ecf9f1;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
